@@ -1,0 +1,70 @@
+body {width: 960px;
+    margin: 20px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(218, 151, 27);
+    font-size: 16px;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+    padding: 8px 0 8px 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black; 
+  }
+  
+  section {
+  display: inline-block;
+  width: 220px;
+  padding: 0 8px 0 0;  
+  }
+  
+  nav ul li a {
+  margin-bottom: 8px;
+  color: black;
+  font-weight:bold;
+  text-decoration: none;  
+  }
+  
+  article {text-indent: 20px;
+  text-align: justify; 
+    
+  }
+  aside {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    padding: 0 0 0 8px;
+    border-left: 1px solid black;
+    background-origin: padding-box;
+    float;clear:both;
+    
+  }
+   table {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border-collapse: collapse;
+     width: 110%;
+     text-align: left;
+     margin: 16px 0 16px 0; }
+
+     th { padding:10px;}
+     td {padding:10px;}
+    
+    th,td {
+    border: solid 1px black;}
+
+    tr {
+      background-color:rgb(247, 202, 109);
+      text-align: center;
+    }
+  
+    tr.rows {
+      background-color:rgb(247, 202, 119);
+    }
+    #Heading {
+      background-color:rgb(199, 230, 243);
+      color: black;
+    }
+    footer {
+      padding: 16x 0 16px 0;
+      border-top: 1px solid black; 
+    }
